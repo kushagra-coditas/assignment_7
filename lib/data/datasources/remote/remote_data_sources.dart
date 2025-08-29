@@ -1,14 +1,14 @@
 import 'package:assignment_7/domain/entities/food_entity.dart';
 
- class RemoteDataSources {
+class RemoteDataSources {
   Future<List<FoodEntity>> fetchFoodItems() {
     return fetchFoodItems();
   }
 }
+
 class FoodRemoteDataSources extends RemoteDataSources {
   @override
   Future<List<FoodEntity>> fetchFoodItems() async {
-    await Future.delayed(Duration(seconds: 2));
     return [
       FoodEntity(
         name: "Tuna Fish",

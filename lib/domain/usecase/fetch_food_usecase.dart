@@ -1,4 +1,4 @@
-import 'package:assignment_7/data/repository_impl/repository_impl.dart';
+import 'package:assignment_7/data/repository_impl/food_repository_impl.dart';
 import 'package:assignment_7/domain/entities/food_entity.dart';
 import 'package:assignment_7/domain/repository/food_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

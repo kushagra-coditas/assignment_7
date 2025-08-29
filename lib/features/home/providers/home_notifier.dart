@@ -9,7 +9,7 @@ class HomeNotifier extends StateNotifier<HomeStates> {
   List<FoodEntity> food = [];
   Set<int> selectedIndexes = {};
   List<FoodEntity> cart = [];
-  final FetchFoodUsecase fetchFoodUsecase; // call usecase here
+  final FetchFoodUsecase fetchFoodUsecase; 
   HomeNotifier(this.fetchFoodUsecase) : super(LoadingFood()) {
     loadingFood();
   }
