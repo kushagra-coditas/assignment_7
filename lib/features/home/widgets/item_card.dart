@@ -12,7 +12,7 @@ class ItemCard extends ConsumerWidget {
   final bool isSelected;
   final VoidCallback onTap;
 
-  ItemCard({
+  const ItemCard({
     required this.food,
     required this.index,
     required this.isSelected,
